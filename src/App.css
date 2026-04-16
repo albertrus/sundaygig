@@ -1,0 +1,31 @@
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f0edff 0%, #fce4ec 100%);
+}
+
+.App-header {
+  background: linear-gradient(90deg, #6c63ff 0%, #a78bfa 100%);
+  padding: 20px 24px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(108, 99, 255, 0.3);
+}
+
+.App-title {
+  margin: 0;
+  font-size: 2rem;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.App-subtitle {
+  margin: 4px 0 0;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App-main {
+  padding: 20px 16px 60px;
+}
