@@ -1,0 +1,252 @@
+/* ===== MusicianProfile Styles ===== */
+
+.profile-card {
+  max-width: 480px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+  padding: 36px 32px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Profile Picture */
+.profile-pic-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.profile-pic {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #6c63ff;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.profile-pic:hover {
+  opacity: 0.85;
+}
+
+.upload-btn {
+  margin-top: 10px;
+  background: none;
+  border: 1px solid #6c63ff;
+  color: #6c63ff;
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.upload-btn:hover {
+  background: #6c63ff;
+  color: #fff;
+}
+
+/* Fields */
+.profile-field {
+  margin-bottom: 20px;
+}
+
+.profile-input {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 1rem;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+}
+
+.profile-input:focus {
+  border-color: #6c63ff;
+}
+
+.profile-textarea {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 1rem;
+  outline: none;
+  box-sizing: border-box;
+  resize: vertical;
+  transition: border-color 0.2s;
+  font-family: inherit;
+}
+
+.profile-textarea:focus {
+  border-color: #6c63ff;
+}
+
+.profile-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #222;
+  margin: 0 0 4px 0;
+  text-align: center;
+}
+
+.profile-bio {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+}
+
+/* Section titles */
+.section-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #444;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Skills */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.skill-tag {
+  background: #ede9fe;
+  color: #5b21b6;
+  border-radius: 20px;
+  padding: 4px 14px;
+  font-size: 0.88rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.remove-skill-btn {
+  background: none;
+  border: none;
+  color: #7c3aed;
+  font-size: 1.1rem;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+}
+
+.remove-skill-btn:hover {
+  color: #c026d3;
+}
+
+.skill-input-row {
+  display: flex;
+  gap: 8px;
+}
+
+.skill-input {
+  flex: 1;
+}
+
+.add-skill-btn {
+  background: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  white-space: nowrap;
+}
+
+.add-skill-btn:hover {
+  background: #574fd8;
+}
+
+/* Price */
+.price-input-wrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: border-color 0.2s;
+}
+
+.price-input-wrapper:focus-within {
+  border-color: #6c63ff;
+}
+
+.currency-symbol {
+  padding: 0 12px;
+  font-size: 1rem;
+  color: #666;
+  background: #f5f5f5;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.price-input {
+  border: none !important;
+  border-radius: 0 !important;
+  flex: 1;
+}
+
+.price-input:focus {
+  border: none;
+  outline: none;
+}
+
+.profile-price {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #6c63ff;
+  margin: 0;
+}
+
+/* Actions */
+.profile-actions {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  border: none;
+  border-radius: 24px;
+  padding: 12px 40px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.btn-save {
+  background: #6c63ff;
+  color: #fff;
+}
+
+.btn-save:hover {
+  background: #574fd8;
+}
+
+.btn-edit {
+  background: #f3f4f6;
+  color: #444;
+}
+
+.btn-edit:hover {
+  background: #e5e7eb;
+}
